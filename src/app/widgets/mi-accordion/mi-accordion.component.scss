@@ -1,0 +1,65 @@
+h2 {
+      cursor: pointer;
+      position: relative;
+      padding: 1em 0.35em;
+      font-size: 1.35em;
+      font-family: Verdana;
+      border-bottom: 1px solid rgba(210,210,210,1);
+      margin: 0;
+
+
+      /* Define the style rules for the 'arrow icons' */
+      span {
+         position: absolute;
+         right: 1em;
+         top: 1.2em;
+         font-size: 0.95em;
+      }
+   }
+
+
+   /* Here we define the actual 'menu' and its 'options' */
+   .image-wrapper {
+      margin: 0 auto 2em auto;
+      width: 20%;
+
+      img {
+         display: block;
+         margin: auto;
+      }
+   }
+
+
+   p {
+      line-height: 1.2em;
+      margin: 0 0 1em 0;
+      font-family: Verdana;
+      font-size: 1rem;
+   }
+
+
+   div {
+      position: relative;
+      padding: 2em;
+      background: rgba(230, 230, 230, 1);
+      border-bottom: 1px solid rgba(210, 210, 210, 1);
+
+
+      ion-button {
+         position: absolute;
+         bottom: 20px;
+         right: 20px;
+      }
+
+   }
+
+   /* Following classes display/hide the 'menu'
+   // based on the state change detection in the
+   // component class */
+   .active {
+      display: block
+   }
+
+   .inactive {
+      display: none;
+   }
