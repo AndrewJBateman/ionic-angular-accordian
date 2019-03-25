@@ -20,7 +20,7 @@ Accordions are often used in the UI for grouping and display of related informat
 
 ## Screenshots
 
-![Home Page](./img/.png)
+![Home Page](./img/accordion.png)
 
 ## Technologies
 
@@ -32,21 +32,26 @@ Accordions are often used in the UI for grouping and display of related informat
 
 ## Code Examples
 
-* functions to search for info and retrieve more detailed info.
+* functions to display info on ech technology from the simple array created in the ts file.
 
-```typescript
-
+```html
+  <app-accordion
+     *ngFor="let technology of technologies"
+     name="{{ technology.name }}"
+     description="{{ technology.description }}"
+     image="{{ technology.image }}"
+     (change)="captureName($event)"></app-accordion>
 ```
 
 ## Features
 
-* Example 1
+* Data is stored in an array of objects but this could be replaced with json data from an API call.
 
 ## Status & To-do list
 
-* Status: Working widget.
+* Status: Working widget, accordion opens and data is accessed from the array and displayed.
 
-* To-do: add icons, add code so UI is more colorful.
+* To-do: work out how to add html links inside the accordion, maybe by using a function.
 
 ## Inspiration
 
