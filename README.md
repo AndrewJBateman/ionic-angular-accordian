@@ -47,6 +47,8 @@ Accordions are often used in the UI for grouping and display of related informat
 
 * Data is stored in an array of objects but this could be replaced with json data from an API call.
 
+* Updated to latest Ionic/Angular versions with dependency updates and all dependency vulnerabilities resolved.
+
 ## Status & To-do list
 
 * Status: Working widget, accordion opens and data is accessed from the array and displayed.
