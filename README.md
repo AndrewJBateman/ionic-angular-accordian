@@ -1,6 +1,6 @@
 # Ionic Angular Accordian
 
-App to create a simple accordian widget using the [Ionic 4 framework](https://ionicframework.com/docs).
+App to create a simple accordian widget using the [Ionic 5 framework](https://ionicframework.com/docs).
 Accordions are often used in the UI for grouping and display of related information.
 
 ## Table of contents
@@ -24,11 +24,15 @@ Accordions are often used in the UI for grouping and display of related informat
 
 ## Technologies
 
-* Ionic/angular - version 4.0.0
+* [Ionic v5.7.0](https://ionicframework.com/)
+
+* [Ionic/angular v4.4.2](https://www.npmjs.com/package/@ionic/angular)
+
+* [Angular v8.0.0](https://angular.io/)
 
 ## Setup
 
-* To start the server on _localhost://8100_ type: 'ionic serve'
+* To start the server on _localhost://8100_ type: 'ionic serve' or on _localhost://4200_ type: 'ng serve'
 
 ## Code Examples
 
@@ -61,4 +65,4 @@ Project inspired by [Mastering Ionic's 'Creating a simple accordion widget in Io
 
 ## Contact
 
-Created by [ABateman](https://www.andrewbateman.org) - feel free to contact me!
+Repo created by [ABateman](https://www.andrewbateman.org) - feel free to contact me!
