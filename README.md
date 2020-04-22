@@ -26,9 +26,9 @@ Accordions are often used in the UI for grouping and display of related informat
 
 * [Ionic v5](https://ionicframework.com/)
 
-* [Ionic/angular v4](https://www.npmjs.com/package/@ionic/angular)
+* [Ionic/angular v5](https://www.npmjs.com/package/@ionic/angular)
 
-* [Angular v8](https://angular.io/)
+* [Angular v9](https://angular.io/)
 
 ## :floppy_disk: Setup
 
