@@ -1,18 +1,21 @@
 # :zap: Ionic Angular Accordian
 
-App to create a simple accordian widget using the [Ionic 5 framework](https://ionicframework.com/docs).
-Accordions are often used in the UI for grouping and display of related information.
+* App to create a simple accordian widget using the [Ionic 5 framework](https://ionicframework.com/docs).
+* Accordions are often used in the UI for grouping and display of related information.
 
 ## :page_facing_up: Table of contents
 
-* [General info](#general-info)
-* [Screenshots](#screenshots)
-* [Technologies](#technologies)
-* [Setup](#setup)
-* [Features](#features)
-* [Status](#status)
-* [Inspiration](#inspiration)
-* [Contact](#contact)
+* [:zap: Ionic Angular Accordian](#zap-ionic-angular-accordian)
+  * [:page_facing_up: Table of contents](#pagefacingup-table-of-contents)
+  * [:books: General info](#books-general-info)
+  * [:camera: Screenshots](#camera-screenshots)
+  * [:signal_strength: Technologies](#signalstrength-technologies)
+  * [:floppy_disk: Setup](#floppydisk-setup)
+  * [:computer: Code Examples](#computer-code-examples)
+  * [:cool: Features](#cool-features)
+  * [:clipboard: Status & To-do list](#clipboard-status--to-do-list)
+  * [:clap: Inspiration](#clap-inspiration)
+  * [:envelope: Contact](#envelope-contact)
 
 ## :books: General info
 
@@ -25,9 +28,7 @@ Accordions are often used in the UI for grouping and display of related informat
 ## :signal_strength: Technologies
 
 * [Ionic v5](https://ionicframework.com/)
-
 * [Ionic/angular v5](https://www.npmjs.com/package/@ionic/angular)
-
 * [Angular v9](https://angular.io/)
 
 ## :floppy_disk: Setup
@@ -50,13 +51,11 @@ Accordions are often used in the UI for grouping and display of related informat
 ## :cool: Features
 
 * Data is stored in an array of objects but this could be replaced with json data from an API call.
-
 * Updated to latest Ionic/Angular versions with dependency updates and all dependency vulnerabilities resolved.
 
 ## :clipboard: Status & To-do list
 
 * Status: Working widget, accordion opens and data is accessed from the array and displayed.
-
 * To-do: work out how to add html links inside the accordion, maybe by using a function.
 
 ## :clap: Inspiration
