@@ -2,6 +2,7 @@
 
 * App to create a simple accordian widget using the [Ionic 5 framework](https://ionicframework.com/docs).
 * Accordions are often used in the UI for grouping and display of related information.
+* Tutorial code from [Matering Ionic](https://masteringionic.com/) - see [:clap: Inspiration](#clap-inspiration) below.
 
 ## :page_facing_up: Table of contents
 
@@ -19,7 +20,7 @@
 
 ## :books: General info
 
-* Uses a [CUSTOM_ELEMENTS_SCHEMA](https://angular.io/api/core/CUSTOM_ELEMENTS_SCHEMA).
+* Added to the `app.module.ts` is a [CUSTOM_ELEMENTS_SCHEMA](https://angular.io/api/core/CUSTOM_ELEMENTS_SCHEMA) allows custom component to be recognised by Angular when transpiling the code
 
 ## :camera: Screenshots
 
@@ -29,7 +30,7 @@
 
 * [Ionic v5](https://ionicframework.com/)
 * [Ionic/angular v5](https://www.npmjs.com/package/@ionic/angular)
-* [Angular v10](https://angular.io/)
+* [Angular v11](https://angular.io/)
 
 ## :floppy_disk: Setup
 
@@ -37,7 +38,7 @@
 
 ## :computer: Code Examples
 
-* functions to display info on ech technology from the simple array created in the ts file.
+* functions to display info on each technology from the simple array created in the ts file.
 
 ```html
   <app-accordion
@@ -51,6 +52,7 @@
 ## :cool: Features
 
 * Data is stored in an array of objects but this could be replaced with json data from an API call.
+* Use of `@input` to pass current name, description & image link strings from `home` to the accordian widget
 * Updated to latest Ionic/Angular versions with dependency updates and all dependency vulnerabilities resolved.
 
 ## :clipboard: Status & To-do list

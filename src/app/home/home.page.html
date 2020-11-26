@@ -1,18 +1,15 @@
 <ion-header>
-  <ion-toolbar>
-    <ion-title>
-      Ionic Accordion
-    </ion-title>
-  </ion-toolbar>
+	<ion-toolbar>
+		<ion-title> Ionic Accordion </ion-title>
+	</ion-toolbar>
 </ion-header>
 
 <ion-content padding>
-
-  <app-accordion
-     *ngFor="let technology of technologies"
-     name="{{ technology.name }}"
-     description="{{ technology.description }}"
-     image="{{ technology.image }}"
-     (change)="captureName($event)"></app-accordion>
-
+	<app-accordion
+		*ngFor="let technology of technologies"
+		name="{{ technology.name }}"
+		description="{{ technology.description }}"
+		image="{{ technology.image }}"
+		(change)="captureName($event)"
+	></app-accordion>
 </ion-content>
