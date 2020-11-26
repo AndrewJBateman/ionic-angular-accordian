@@ -2,7 +2,7 @@
 
 * App to create a simple accordian widget using the [Ionic 5 framework](https://ionicframework.com/docs).
 * Accordions are often used in the UI for grouping and display of related information.
-* Tutorial code from [Matering Ionic](https://masteringionic.com/) - see [:clap: Inspiration](#clap-inspiration) below.
+* Tutorial code from [Mastering Ionic](https://masteringionic.com/) - see [:clap: Inspiration](#clap-inspiration) below.
 
 ## :page_facing_up: Table of contents
 
@@ -38,15 +38,18 @@
 
 ## :computer: Code Examples
 
-* functions to display info on each technology from the simple array created in the ts file.
+* extract from `home.page.html`: for loop used to display info on each technology from the simple array created in the ts file.
 
 ```html
-  <app-accordion
-     *ngFor="let technology of technologies"
-     name="{{ technology.name }}"
-     description="{{ technology.description }}"
-     image="{{ technology.image }}"
-     (change)="captureName($event)"></app-accordion>
+<ion-content padding>
+	<app-accordion
+		*ngFor="let technology of technologies"
+		name="{{ technology.name }}"
+		description="{{ technology.description }}"
+		image="{{ technology.image }}"
+		(change)="captureName($event)"
+	></app-accordion>
+</ion-content>
 ```
 
 ## :cool: Features
