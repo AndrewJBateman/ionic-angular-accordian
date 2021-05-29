@@ -3,6 +3,12 @@
 * App to create a simple accordian widget using the [Ionic 5 framework](https://ionicframework.com/docs).
 * Accordions are often used in the UI for grouping and display of related information.
 * Tutorial code from [Mastering Ionic](https://masteringionic.com/) - see [:clap: Inspiration](#clap-inspiration) below.
+* **Note:** to open web links in a new window use: _ctrl+click on link_
+
+![GitHub repo size](https://img.shields.io/github/repo-size/AndrewJBateman/ionic-angular-accordian?style=plastic)
+![GitHub pull requests](https://img.shields.io/github/issues-pr/AndrewJBateman/ionic-angular-accordian?style=plastic)
+![GitHub Repo stars](https://img.shields.io/github/stars/AndrewJBateman/ionic-angular-accordian?style=plastic)
+![GitHub last commit](https://img.shields.io/github/last-commit/AndrewJBateman/ionic-angular-accordian?style=plastic)
 
 ## :page_facing_up: Table of contents
 
@@ -16,6 +22,7 @@
   * [:cool: Features](#cool-features)
   * [:clipboard: Status & To-do list](#clipboard-status--to-do-list)
   * [:clap: Inspiration](#clap-inspiration)
+  * [:file_folder: License](#file_folder-license)
   * [:envelope: Contact](#envelope-contact)
 
 ## :books: General info
@@ -30,7 +37,7 @@
 
 * [Ionic v5](https://ionicframework.com/)
 * [Ionic/angular v5](https://www.npmjs.com/package/@ionic/angular)
-* [Angular v11](https://angular.io/)
+* [Angular v12](https://angular.io/)
 
 ## :floppy_disk: Setup
 
@@ -42,13 +49,13 @@
 
 ```html
 <ion-content padding>
-	<app-accordion
-		*ngFor="let technology of technologies"
-		name="{{ technology.name }}"
-		description="{{ technology.description }}"
-		image="{{ technology.image }}"
-		(change)="captureName($event)"
-	></app-accordion>
+  <app-accordion
+    *ngFor="let technology of technologies"
+    name="{{ technology.name }}"
+    description="{{ technology.description }}"
+    image="{{ technology.image }}"
+    (change)="captureName($event)"
+  ></app-accordion>
 </ion-content>
 ```
 
@@ -60,13 +67,17 @@
 
 ## :clipboard: Status & To-do list
 
-* Status: Working widget, accordion opens and data is accessed from the array and displayed.
+* Status: Working. Updated may 2021.
 * To-do: work out how to add html links inside the accordion, maybe by using a function.
 
 ## :clap: Inspiration
 
 Project inspired by [Mastering Ionic's 'Creating a simple accordion widget in Ionic 4'](http://masteringionic.com/blog/2019-01-27-creating-a-simple-accordion-widget-in-ionic-4/).
 
+## :file_folder: License
+
+* N/A
+
 ## :envelope: Contact
 
-* Repo created by [ABateman](https://www.andrewbateman.org) - you are welcome to [send me a message](https://andrewbateman.org/contact)
+* Repo created by [ABateman](https://github.com/AndrewJBateman), email: gomezbateman@yahoo.com
