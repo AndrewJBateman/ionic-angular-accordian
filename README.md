@@ -76,7 +76,7 @@ Project inspired by [Mastering Ionic's 'Creating a simple accordion widget in Io
 
 ## :file_folder: License
 
-* N/A
+* This project is licensed under the terms of the MIT license.
 
 ## :envelope: Contact
 
