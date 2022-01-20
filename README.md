@@ -1,6 +1,6 @@
 # :zap: Ionic Angular Accordian
 
-* App to create a simple accordian widget using the [Ionic 5 framework](https://ionicframework.com/docs).
+* App to create a simple accordian widget using the [Ionic framework](https://ionicframework.com/docs).
 * Accordions are often used in the UI for grouping and display of related information.
 * Tutorial code from [Mastering Ionic](https://masteringionic.com/) - see [:clap: Inspiration](#clap-inspiration) below.
 * **Note:** to open web links in a new window use: _ctrl+click on link_
@@ -35,9 +35,9 @@
 
 ## :signal_strength: Technologies
 
-* [Ionic v5](https://ionicframework.com/)
-* [Ionic/angular v5](https://www.npmjs.com/package/@ionic/angular)
-* [Angular v12](https://angular.io/)
+* [Ionic v6](https://ionicframework.com/)
+* [Ionic/angular v6](https://www.npmjs.com/package/@ionic/angular)
+* [Angular v13](https://angular.io/)
 
 ## :floppy_disk: Setup
 
@@ -67,7 +67,7 @@
 
 ## :clipboard: Status & To-do list
 
-* Status: Working. Updated may 2021.
+* Status: Working.
 * To-do: work out how to add html links inside the accordion, maybe by using a function.
 
 ## :clap: Inspiration
