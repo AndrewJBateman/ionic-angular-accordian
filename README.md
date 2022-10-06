@@ -37,7 +37,7 @@
 
 * [Ionic v6](https://ionicframework.com/)
 * [Ionic/angular v6](https://www.npmjs.com/package/@ionic/angular)
-* [Angular v13](https://angular.io/)
+* [Angular v14](https://angular.io/)
 
 ## :floppy_disk: Setup
 
@@ -68,7 +68,7 @@
 ## :clipboard: Status & To-do list
 
 * Status: Working.
-* To-do: work out how to add html links inside the accordion, maybe by using a function.
+* To-do: work out how to add HTML links inside the accordion, maybe by using a function.
 
 ## :clap: Inspiration
 
