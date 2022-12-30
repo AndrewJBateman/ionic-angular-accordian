@@ -1,7 +1,7 @@
 <h2 (click)="toggleAccordion()">
-	{{ name }}
-	<span *ngIf="isMenuOpen">&#9650;</span>
-	<span *ngIf="!isMenuOpen">&#9660;</span>
+  {{ name }}
+  <span *ngIf="isMenuOpen">&#9650;</span>
+  <span *ngIf="!isMenuOpen">&#9660;</span>
 </h2>
 <div [ngClass]="this.isMenuOpen ? 'active' : 'inactive'">
   <div>
@@ -11,13 +11,6 @@
     <p>{{ description }}</p>
   </div>
 
-  <ion-button
-type="button"
-color="primary"
-fill="solid"
-size="small"
-(click)="broadcastName(name)"
->Click me!</ion-button
->
+  <ion-button type="button" color="primary" fill="solid" size="small" (click)="broadcastName(name)">Click
+    me!</ion-button>
 </div>
-

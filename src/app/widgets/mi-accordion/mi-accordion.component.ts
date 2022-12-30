@@ -38,9 +38,9 @@ export class MiAccordionComponent implements OnInit {
 	 */
 	public isMenuOpen = false;
 
-	constructor() {}
+	constructor() { }
 
-	ngOnInit() {}
+	ngOnInit() { }
 
 	/**
 	 * Allows the accordion state to be toggled (I.e. opened/closed)

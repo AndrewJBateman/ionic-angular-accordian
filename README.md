@@ -37,7 +37,7 @@
 
 * [Ionic v6](https://ionicframework.com/)
 * [Ionic/angular v6](https://www.npmjs.com/package/@ionic/angular)
-* [Angular v14](https://angular.io/)
+* [Angular v15](https://angular.io/)
 
 ## :floppy_disk: Setup
 
